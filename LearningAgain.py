@@ -20,7 +20,7 @@ def archimedes(numSides):
 
 print(archimedes(4))
 print(archimedes(8))
-print(archimedes(360000000))
+print(archimedes(16))
 
 
 
@@ -32,5 +32,45 @@ print(archimedes(360000000))
 
 print(math.pi)
 
-# it takes 360 million sides to make the archimedes function equal to math.pi
-# the difference is 0 because they are now equal
+
+
+for sides in range(40000000, 400000000, 40000000):
+    print(sides, archimedes(sides))
+
+print(math.pi)
+
+# there is no difference
+
+
+# Accumalators
+
+# not algebra; these are not equations
+
+#accumalators can store value
+
+# variable to handle the accumalation
+acc = 0 #here is the original value of our accumalation
+for val in range(1, 6, 1): #here is the parameters for our values
+    acc = acc + val #here we add the values to our original accumalation
+
+# the range is from and including the first number to but not including the next number
+# the last number indicates by what interval you are jumping. We are jumping by 1 here
+# take original value (0) and add a value (val) to it, all values from 1 to 6, and keep adding and storing in the accumalation
+# 0+1=1, 1+2=3, 3+3=6, 6+4=10, 10+5=15
+
+print(acc)
+
+# we get 15
+
+# here is the sum of the first 100 even numbers
+acc = 0
+for val in range(0, 201, 2):
+    acc = acc + val
+
+print(acc)
+
+
+
+
+
+
