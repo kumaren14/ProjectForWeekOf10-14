@@ -70,6 +70,18 @@ for val in range(0, 201, 2):
 print(acc)
 
 
+# sum of the first 50 odd numbers
+
+acc = 0
+for val in range(1, 101, 2):
+    acc = acc + val
+
+print(acc)
+
+
+# average of the first 100 odd numbers
+
+acc = 0
 
 
 
