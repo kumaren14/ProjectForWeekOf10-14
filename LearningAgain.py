@@ -76,7 +76,7 @@ print(acc)
 
 # Each number in the Fibonacci sequence is the sum of the previous two numbers.
 #   The first two numbers in the sequence are 1 and 1.  Compute the 10th
-#   Fibonacci number.
+#   Fibonacci number.                                       The 10th Fibonacci number is 55
 
 # Write a function to compute the Nth Fibonacci number, where N is a parameter.
 #   You may assume that N will be greater than or equal to 3.
@@ -144,6 +144,8 @@ acc = 0
 for fibonacci in range(1, 11):
     acc = acc + fibonacci
 print(acc)
+
+# it is 55
 
 
 
