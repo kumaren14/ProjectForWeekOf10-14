@@ -72,7 +72,7 @@ print(acc)
 #   N is a parameter                                        N = 6, average = 21
 
 # Write a function called factorial that computes the product of the first N
-#   numbers, where N is a parameter                         N = 6, factorial = 90
+#   numbers, where N is a parameter                         N = 6, factorial = 720
 
 # Each number in the Fibonacci sequence is the sum of the previous two numbers.
 #   The first two numbers in the sequence are 1 and 1.  Compute the 10th
@@ -114,7 +114,7 @@ print(acc)
 
 # it is 100
 
-# function for the average of N numbers where N is a parmeter
+# function for the average of N numbers where N is a parameter
 
 def average(N):
     acc = 0
@@ -126,16 +126,25 @@ print(average(6))
 
 # N = 6, average = 21
 
+# this is function finds the product of N numbers, where N is a parameter
 def factorial(N):
-    acc = 0
-    for factorial in range(0, N, 1):
+    acc = 1
+    for factorial in range(1, N+1, 1):
         acc = acc * factorial
-        
+    print(acc)
 
 
 print(factorial(6))
 
-# N = 6, Factorial  = 90
+# N = 6, Factorial  = 720
+
+
+# this calculates the 10th fibonacci number
+acc = 0
+for fibonacci in range(1, 11):
+    acc = acc + fibonacci
+print(acc)
+
 
 
 
