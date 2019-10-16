@@ -62,17 +62,17 @@ print(acc)
 
 # we get 15
 
-# Compute the sum of the first 100 even numbers 10100
+# Compute the sum of the first 100 even numbers             10100
 
-# Compute the sum of the first 50 odd numbers 2500
+# Compute the sum of the first 50 odd numbers               2500
 
-# Compute the average of the first 100 odd numbers 100
+# Compute the average of the first 100 odd numbers          100
 
 # Write a function that returns the average of the first N numbers, where
-#   N is a parameter
+#   N is a parameter                                        N = 6, average = 21
 
 # Write a function called factorial that computes the product of the first N
-#   numbers, where N is a parameter
+#   numbers, where N is a parameter                         N = 6, factorial = 90
 
 # Each number in the Fibonacci sequence is the sum of the previous two numbers.
 #   The first two numbers in the sequence are 1 and 1.  Compute the 10th
@@ -80,9 +80,6 @@ print(acc)
 
 # Write a function to compute the Nth Fibonacci number, where N is a parameter.
 #   You may assume that N will be greater than or equal to 3.
-
-
-
 
 
 
@@ -116,6 +113,38 @@ for val in range(1, 200, 2):
 print(acc)
 
 # it is 100
+
+# function for the average of N numbers where N is a parmeter
+
+def average(N):
+    acc = 0
+    for average in range(0, 37, N):
+        acc = acc + average
+    print(acc/N)
+
+print(average(6))
+
+# N = 6, average = 21
+
+def factorial(N):
+    acc = 0
+    for factorial in range(0, N, 1):
+        acc = acc * factorial
+        
+
+
+print(factorial(6))
+
+# N = 6, Factorial  = 90
+
+
+
+
+
+
+
+
+
 
 
 
