@@ -140,12 +140,26 @@ print(factorial(6))
 
 
 # this calculates the 10th fibonacci number
+
 acc = 0
 for fibonacci in range(1, 11):
     acc = acc + fibonacci
-print(acc)
+    print(acc)
 
 # it is 55
+
+
+# this computes the Nth fibonacci number where n is a parameter
+def Fibonacci(N):
+    acc = 0
+    for fibonacci in range(1, N+1):
+        acc = acc + fibonacci
+    print(acc)
+
+
+print(Fibonacci(10))
+
+# the variable is 10, the answer is 55
 
 
 
