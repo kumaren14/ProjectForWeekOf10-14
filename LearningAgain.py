@@ -161,6 +161,71 @@ print(Fibonacci(10))
 
 # the variable is 10, the answer is 55
 
+# a Monte Carlo Simulation
+# randomization
+# random numbers
+
+import random
+
+print(random.random())
+
+# 0<=x<1
+
+# Boolean Expressions
+# compares two things
+# built using <, <=, >, >=, ==, !=
+
+# Compound Boolean Expressions
+# uses and, or, not
+
+dogWeight = 25
+
+print(dogWeight < 25)
+
+# see we can see if certain comparisons are true or false
+
+catWeight = 12
+print(dogWeight >= 25 or catWeight <= 12)
+# and requires both to be true, or only needs one
+print(not catWeight <=10)
+# not flips the true/false value
+
+# decision making skills
+
+jon = 20
+lyndsi = 15
+andrew = 25
+ans = 0
+
+if jon > 20:
+    if lyndsi < 50:
+        ans = 42069
+    else:
+        ans = 200
+
+else:
+    if andrew > 500:
+        ans = 150
+    else:
+        ans = 75
+print(ans)
+
+
+
+
+
+value = 75
+if value > 100:
+    print("bigger than 100")
+elif value > 80:
+    print("bigger than 80")
+elif value > 45:
+    print("bigger than 45")
+else:
+    print("not bigger than much")
+
+
+
 
 
 
