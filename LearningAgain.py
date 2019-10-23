@@ -252,9 +252,11 @@ import turtle
 def showMontePi(numDarts):
     scn = turtle.Screen()
     t = turtle.Turtle()
-  
+
 
     scn.setworldcoordinates(-2, -2, 2, 2)
+
+    t.speed(50)
 
     t.penup()
     t.goto(-1, 0)
@@ -275,14 +277,12 @@ def showMontePi(numDarts):
     t.penup
 
     for i in range(numDarts):
-        x = random.random()
-        y = random.random()
+        x = random.randrange(-100, 100)/100
+        y = random.randrange(-100, 100)/100
 
         distance = math.sqrt(x**2 + y**2)
         t.goto(x, y)
-        t.goto(-x, y)
-        t.goto(-x, -y)
-        t.goto(x, -y)
+
 
         if distance <= 1:
             inCircle = inCircle + 1
@@ -296,7 +296,9 @@ def showMontePi(numDarts):
     scn.exitonclick()
     return pi
 
-print(showMontePi(1000))
+print(showMontePi(500))
+
+
 
 #assigment: modify the code to plot points in the entire circle(all four quadrants)
 # you will have to adjust the calculated value for pi accordingly
